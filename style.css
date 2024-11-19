@@ -536,3 +536,55 @@
     opacity: 1; /* 보이게 설정 */
     transform: translateY(0); /* 원래 위치로 이동 */
 }
+
+@media screen and (max-width: 540px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .line_{
+        left: 64px;
+    }
+    .line__{
+        right: 64px;
+    }
+    .text_1{
+        min-width: 540px;
+        display: flex;
+    }
+    .cover{
+        max-width: 540px;
+    }
+    .cover .text_1 h1{
+        font-size: 92px;
+        padding-left: 14px;
+        padding-top: 16px;
+    }
+    .cover .line_1{
+        top: 80px;
+    }
+    .cover .text_1 h3{
+        font-size: 24px;
+        top: 78px;
+        right: 70px;
+    }
+    .cover .text_2 h1{
+        font-size: 92px;
+        top: 120px;
+        right: 72px;
+    }
+
+    .mind .title{
+        font-size: 36px;
+        left: 61px;
+    }
+    .mind .main{
+        left: 62px;
+    }
+    .mind .main .subtitle{
+        font-size: 20px;
+    }
+    .mind .main .text{
+        font-size: 16px;
+    }
+}
